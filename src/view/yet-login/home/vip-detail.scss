@@ -1,0 +1,103 @@
+.svipDetail {
+    width: 100%;
+    height: auto;
+    .title {
+        width: 100%;
+        height: 77px;
+        margin: 36px 0 37px 0;
+        padding: 0 47px 0 49px;
+        >div {
+            width: 50%;
+            float: left;
+            &:first-child {
+                height: 77px;
+                >div {
+                    width: 100%;
+                    height: 37px;
+                    margin-bottom: 12px;
+
+                    >h3 {
+                        float: left;
+                        width: 143px;
+
+                        &:first-child {
+                            font-size: 28px;
+                            font-family: MicrosoftYaHei-Bold;
+                            font-weight: bold;
+                            color: rgba(0, 0, 0, 0.5);
+                        }
+
+                        &:last-child {
+                            font-size: 28px;
+                            font-family: MicrosoftYaHei-Bold;
+                            font-weight: bold;
+                            color: rgba(0, 0, 0, 1);
+                        }
+                    }
+                }
+
+                >p {
+                    font-size: 21px;
+                    font-family: MicrosoftYaHei-Bold;
+                    font-weight: bold;
+                    color: rgba(32, 33, 36, .5);
+                }
+            }
+
+            &:last-child {
+                height: 77px;
+                >a {
+                    width: 169px;
+                    height: 47px;
+                    border-radius: 9px;
+                    border: 1px solid RGBA(234, 234, 234, 1);
+                    float: right;
+                    text-align: center;
+                    line-height: 47px;
+                    font-size: 14px;
+                    font-family: MicrosoftYaHei-Bold;
+                    font-weight: bold;
+                    color: rgba(0, 0, 0, 1);
+                    position: relative;
+
+                    >span {
+                        position: absolute;
+                        width: 9px;
+                        height: 9px;
+                        border: 2px solid RGBA(0, 0, 0, 1);
+                        border-right: none;
+                        border-top: none;
+                        transform: rotate(45deg);
+                        left: 24px;
+                        top: 19px;
+
+                    }
+                }
+            }
+        }
+    }
+    .tablist {
+        width: 100%;
+        height: 47px;
+        margin-bottom: 37px;
+        padding: 0 47px 0 49px;
+        >li {
+            float: left;
+            padding: 13px 37px;
+            font-size: 17px;
+            font-family: MicrosoftYaHei-Bold;
+            font-weight: bold;
+            color: rgba(0, 0, 0, 1);
+        }
+
+        .active {
+            padding: 13px 37px;
+            background: rgba(30, 90, 220, 1);
+            border-radius: 9px;
+            font-size: 17px;
+            font-family: MicrosoftYaHei-Bold;
+            font-weight: bold;
+            color: rgba(255, 255, 255, 1);
+        }
+    }
+}

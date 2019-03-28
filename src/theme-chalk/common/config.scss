@@ -1,0 +1,16 @@
+$element-separator: '__';
+$modifier-separator: '--';
+$state-prefix: 'is-';
+
+// @import "../src/mixins/mixins.scss";
+@import "../src/mixins/mixins.scss";
+@import "../src/mixins/utils.scss";
+@import "./mixins.scss";
+@import "./var.scss";
+@mixin b($block) {
+  $B: $block !global;
+
+  .#{$B} {
+    @content;
+  }
+}

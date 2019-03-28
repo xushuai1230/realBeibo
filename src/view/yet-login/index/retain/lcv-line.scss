@@ -1,0 +1,40 @@
+.lcvLine {
+    >div {
+        &:nth-child(1) {
+            width: 100%;
+            height: 47px;
+
+            >h3 {
+                font-size: 28px;
+                font-family: MicrosoftYaHei-Bold;
+                font-weight: bold;
+                color: rgba(32, 33, 36, 1);
+                float: left;
+            }
+
+            >ul {
+                float: right;
+
+                li {
+                    float: left;
+                    width: 133px;
+                    height: 47px;
+                    text-align: center;
+                    line-height: 47px;
+                }
+
+                .lcvTab {
+                    background: rgba(30, 90, 220, 1);
+                    border-radius: 9px;
+                    font-size: 14px;
+                    font-family: MicrosoftYaHei-Bold;
+                    font-weight: bold;
+                    color: rgba(255, 255, 255, 1);
+                }
+            }
+        }
+    }
+    #lcvline {
+        margin-bottom: 60px;
+    }
+}

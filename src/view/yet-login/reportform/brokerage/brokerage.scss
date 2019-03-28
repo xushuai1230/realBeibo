@@ -1,0 +1,111 @@
+.brokerage {
+    width: 100%;
+    height: auto;
+    padding: 0 49px;
+
+    .brokerageTable {
+        margin: 37px 0 36px 0;
+
+        .el-table {
+            border-radius: 6px;
+
+            .el-table__header-wrapper {
+                th {
+                    text-align: center;
+                    background: rgba(251, 251, 251, 1);
+                    padding: 12px 0;
+
+                    .cell {
+                        font-size: 17px;
+                        font-family: MicrosoftYaHei-Bold;
+                        font-weight: bold;
+                        color: rgba(32, 33, 36, 1);
+                    }
+                }
+            }
+
+            .el-table__body-wrapper {
+                td {
+                    height: 57px;
+                    text-align: center;
+
+                    &:nth-child(2) {
+                        .cell {
+                            font-size: 17px;
+                            font-family: MicrosoftYaHei-Bold;
+                            font-weight: bold;
+                            color: rgba(30, 90, 220, 1);
+                        }
+                    }
+
+                    &:nth-child(4) {
+                        .cell {
+                            font-size: 17px;
+                            font-family: MicrosoftYaHei-Bold;
+                            font-weight: bold;
+                            color: rgba(30, 90, 220, 1);
+                        }
+                    }
+
+                    .cell {
+                        font-size: 17px;
+                        font-family: MicrosoftYaHei;
+                        color: rgba(32, 33, 36, 1);
+                    }
+                }
+            }
+
+            .el-table__footer-wrapper {
+                td {
+                    text-align: center;
+                    background: rgba(243, 243, 243, 1);
+                    height: 58px;
+
+                    &:nth-child(2) {
+                        .cell {
+                            font-size: 17px;
+                            font-family: MicrosoftYaHei-Bold;
+                            font-weight: bold;
+                            color: rgba(30, 90, 220, 1);
+                        }
+                    }
+
+                    &:nth-child(4) {
+                        .cell {
+                            font-size: 17px;
+                            font-family: MicrosoftYaHei-Bold;
+                            font-weight: bold;
+                            color: rgba(30, 90, 220, 1);
+
+                            text-decoration: underline;
+                        }
+                    }
+
+                    .cell {
+                        font-size: 17px;
+                        font-family: MicrosoftYaHei-Bold;
+                        font-weight: bold;
+                        color: rgba(32, 33, 36, 1);
+                    }
+
+                }
+            }
+        }
+    }
+
+    >p {
+        width: 50%;
+        float: left;
+        font-size: 14px;
+        font-family: MicrosoftYaHei;
+        color: rgba(0, 0, 0, 1);
+        line-height:36px;
+        >span {
+            float: left;
+            width: 26px;
+            height: 24px;
+            background: rgba(233, 129, 29, 1);
+            margin-right: 12px;
+        }
+    }
+}

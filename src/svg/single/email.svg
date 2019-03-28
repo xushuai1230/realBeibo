@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="20px" viewBox="0 0 28 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="我的账户" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.300000012">
+        <g id="Commission-Withdrawal---Fund-Details---Security-Center" transform="translate(-273.000000, -513.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Main-Content" transform="translate(245.000000, 90.000000)">
+                <g id="Actions" transform="translate(0.000000, 127.000000)">
+                    <g id="E-mail-Verification" transform="translate(0.000000, 252.000000)">
+                        <g id="Icon" transform="translate(28.000000, 44.000000)">
+                            <path d="M14,14 L17.464,10.968 L27.362,19.458 C27.004,19.792 26.52,20 25.986,20 L2.014,20 C1.478,20 0.992,19.792 0.632,19.458 L10.536,10.968 L14,14 Z M27.368,0.542 L14,12 L0.636,0.546 C0.996,0.208 1.48,0 2.014,0 L25.986,0 C26.524,0 27.008,0.206 27.368,0.542 Z M0,1.756 L9.666,10.158 L0,18.372 L0,1.756 Z M18.334,10.158 L28,1.75 L28,18.372 L18.334,10.158 Z" id="Envelope"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,30 @@
+@import "mixins/mixins";
+@import "common/var";
+
+@include b(radio-group) {
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle;
+  font-size: 0;
+
+  @include b(radio-button) {
+    font-weight: bold;
+  }
+
+  @include when(block) {
+    display: flex;
+    @include b(radio-button) {
+      flex: 1 0 0;
+    }
+  }
+  @include when(shadow) {
+    @include b(radio-button) {
+      @include when(active) {
+        .el-radio-button__inner {
+          @include utils-shadow-transition(0px 12px 40px 0px rgba(0, 0, 0, 0.24));
+          z-index: 1;
+        }
+      }
+    }
+  }
+}
